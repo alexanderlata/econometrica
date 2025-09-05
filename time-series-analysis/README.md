@@ -4,7 +4,7 @@
 
 Программа курса в файле `syllabus`
 
-Задачи для рабора в папке `exercises`
+Задачи для разбора в папке `exercises`
 
 ## Источники (базы) данных
 
@@ -34,5 +34,10 @@
 В командной строке (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) выполнить следующие команды (в дополнении в основным библиотекам)
 
 - `conda install -c conda-forge yfinance pandas-datareader arch-py pmdarima sktime`
+- `pip install yfinance pandas-datareader arch pmdarima sktime`
 
-Альтернативно в Windows можно использовать `pip install`
+В Google Colab недостающие библиотеки можно установить командой в первой ячейке (это нужно делать при каждом открытии ноутбука)
+
+`%%capture --no-display`
+
+`!pip install sktime pmdarima arch `

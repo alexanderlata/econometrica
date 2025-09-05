@@ -1,7 +1,7 @@
 .Rhistory
 .DS_Store
+.ipynb_checkpoints
 
-*.csv
 *.aux
 *.toc
 *.gz
@@ -9,3 +9,5 @@
 *.log
 *.fls
 *.fdb_latexmk
+
+econometrica-1/jupyter-notebooks/*.csv
